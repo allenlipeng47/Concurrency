@@ -8,9 +8,6 @@
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
-		<!--<property name="url" value="jdbc:mysql://ddpli.westlakefinancial.com:3306/test?rewriteBatchedStatements=true&amp;relaxAutoCommit=true"/>-->
-		<property name="url" value="jdbc:mysql://ddpli.westlakefinancial.com:3306/test"/>
-		<!--<property name="url" value="jdbc:mysql://ddpli.westlakefinancial.com:3306/test"/>-->
 		<property name="username" value="root"/>
 		<property name="password" value="root"/>
 	</bean>
