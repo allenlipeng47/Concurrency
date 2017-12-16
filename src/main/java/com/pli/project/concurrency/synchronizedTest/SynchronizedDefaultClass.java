@@ -1,6 +1,6 @@
 package com.pli.project.concurrency.synchronizedTest;
 
-public class SynchronizedClass {
+public class SynchronizedDefaultClass {
 
     public static int a;
 
@@ -11,7 +11,8 @@ public class SynchronizedClass {
             System.out.println(String.format("Thread: %s, value: %d", Thread.currentThread().getId(), a));
             try {
                 Thread.sleep(1000);
-            } catch (Exception e) {}
+            } catch (Exception e) {
+            }
         }
     }
 
